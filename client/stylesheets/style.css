@@ -1,0 +1,162 @@
+body {
+  background: #577ddc;
+  font-family: fantasy;
+
+}
+
+header, main, footer {
+  min-width: 1055px;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+h2, h4, h6 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 25px 0 25px 0;
+  background: rgb(106, 10, 232);
+  overflow: auto;
+  border-bottom: 4px solid rgb(240, 99, 18);
+}
+
+h1 {
+  font-family: "Apple Chancery", cursive;
+  font-weight: bold;
+  font-size: 4em;
+  color: rgb(244, 12, 93);
+  float: right;
+  width: 670px;
+}
+
+header nav {
+  float: right;
+  width: 285px;
+}
+
+a {
+  color: rgb(33, 142, 14);
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+}
+
+main {
+    background: rgb(8, 170, 219);
+    border-radius: 0 5px 5px 5px;;
+    padding: 50px;
+}
+
+.tabs a span {
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+    background: rgba(221, 221, 221, 0.211);
+    padding: 5px;
+}
+
+.tabs a .active {
+    background: #eee;
+}
+
+main .content {
+    padding: 30px 10px 30px 10px;
+    border-radius: 0 7px 7px 7px;
+    background: #eee;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+    color: rgba(139, 172, 175, 0.112);;
+    background: #ddd;
+    padding: 5px;
+    font-style: italic;
+    margin: 20px 0 10px 0;
+}
+
+h3:first-child {
+    margin-top: 0;
+}
+
+main .content li {
+    border-radius: 5px;
+    padding: 3px;
+    background: #eff;
+    margin: 0 0 10px 0;
+}
+
+main .content button {
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  background: #ccc;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1.3em;
+}
+
+main .content p {
+    color: red;
+    margin: 30px 0 0 0;
+}
+
+main .content p:first-child {
+    margin-top: 10px;
+}
+
+main .content input {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+
+
+footer {
+    border-top: 1px solid #ddd;
+    padding: 40px 0 20px 0;
+}
+
+footer .contact {
+  float: left;
+  width: 570px;    
+}
+
+h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+footer .contact p:nth-child(2) {
+  color: rgb(119, 17, 221);
+  font-style: italic;
+}
+
+footer .sitemap {
+    float: right;
+    width: 285px;
+}
+
+footer ul {
+    width: 230px;
+}
+
+li {
+    list-style: none;
+}
+
+footer .sitemap .left {
+    float: left;
+}
+
+footer .sitemap .right {
+    float: right;
+}
